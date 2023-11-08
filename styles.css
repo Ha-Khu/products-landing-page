@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  width: auto;
+  height: 12vh;
+  background-color: rgb(63, 63, 63);
+}
+
+nav {
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.logo {
+}
+
+.searchbar {
+  color: white;
+  font-size: 20px;
+  font-weight: 750;
+  width: 400px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: rgb(38, 38, 38);
+}
+
+.list {
+  border: 3px solid red;
+}
+
+
+nav ul {
+  list-style: none;
+}
+
