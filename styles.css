@@ -35,7 +35,11 @@ nav {
 }
 
 .list {
-  border: 3px solid red;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -43,3 +47,10 @@ nav ul {
   list-style: none;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(248, 239, 239);
+}
