@@ -7,7 +7,7 @@
 header {
   width: auto;
   height: 12vh;
-  background-color: rgb(13, 14, 12)
+  background-color: rgb(62, 131, 199)
 }
 
 nav {
@@ -20,10 +20,18 @@ nav {
 
 .logo {
   width: 150px;
+  position: absolute;
+  left: 360px;
+}
+
+.logo-name {
+  color: rgb(0, 5, 12);
+  font-family: monospace, sans-serif;
+  font-size: 28px;
 }
 
 .searchbar {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-weight: 750;
   width: 400px;
@@ -32,7 +40,7 @@ nav {
   border: none;
   outline: none;
   text-align: center;
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(255, 245, 245);
 }
 
 .list {
