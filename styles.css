@@ -7,7 +7,7 @@
 header {
   width: auto;
   height: 12vh;
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(13, 14, 12)
 }
 
 nav {
@@ -19,7 +19,7 @@ nav {
 }
 
 .logo {
-  color: wheat;
+  width: 150px;
 }
 
 .searchbar {
