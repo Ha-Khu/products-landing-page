@@ -6,7 +6,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* HEADER */
@@ -124,12 +124,11 @@ main {
 /* BURGER IMG */
 
 .burger-section {
-  border: 3px solid red;
   width: 900px;
-  height: 500px;
+  height: 400px;
   float: right;
   margin-right: 150px;
-  margin-top: 100px;
+  margin-top: 250px;
 }
 
 .burger-img {
@@ -141,3 +140,15 @@ main {
 }
 
 /* H1, P, BUTTON TEXT NEXT TO THE BURGER IMG */
+
+.Craving-header {
+  font-size: 50px;
+  color: rgb(250, 137, 9);
+}
+
+.Craving-text {
+  margin-top: 25px;
+  font-size: 35px;
+  color: rgb(122, 122, 122);
+  font-weight: 650;
+}
