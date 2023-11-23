@@ -147,8 +147,31 @@ main {
 }
 
 .Craving-text {
-  margin-top: 25px;
+  margin-top: 20px;
   font-size: 35px;
   color: rgb(122, 122, 122);
   font-weight: 650;
+}
+
+.order-btn {
+  margin-top: 30px;
+  width: 350px;
+  height: 75px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 3px solid rgb(250, 137, 9);
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 40px;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+.order-btn:hover {
+  color: rgb(250, 137, 9);
 }
