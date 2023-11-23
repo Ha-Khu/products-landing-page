@@ -121,6 +121,8 @@ main {
   font-family: monospace;
 }
 
+/* BURGER IMG */
+
 .burger-section {
   border: 3px solid red;
   width: 900px;
@@ -137,3 +139,5 @@ main {
   left: -300px;
   transform: rotate(10deg);
 }
+
+/* H1, P, BUTTON TEXT NEXT TO THE BURGER IMG */
