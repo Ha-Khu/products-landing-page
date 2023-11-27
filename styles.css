@@ -217,4 +217,40 @@ main {
     justify-content: center;
     gap: 35px;
   }
+
+  /*BURGER IMG*/
+
+  .burger-section {
+    width: 405px;
+    height: 100px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .burger-img {
+    width: 300px;
+    bottom: -100px;
+    left: -100px;
+    opacity: 0.4;
+  }
+
+  .pizza-img {
+    width: 200px;
+    opacity: 0.3;
+    top: 750px;
+    left: 250px;
+  }
+
+  /*H1, P, BUTTON TEXT*/
+
+  .Craving-header {
+    margin-top: 150px;
+    font-size: 30px;
+  }
+
+  .Craving-text {
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: left;
+  }
 }
