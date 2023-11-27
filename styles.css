@@ -183,3 +183,38 @@ main {
 .order-btn:hover {
   color: rgb(250, 137, 9);
 }
+
+
+/* RESPONSIVE */
+
+@media (width < 600px) {
+  header {
+    display: inline-block;
+  }
+
+  .logo-img-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-img {
+    margin-left: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    width: 300px;
+  }
+
+  nav {
+    width: 500px;
+  }
+
+  ul {
+    margin-left: 110px;
+    text-align: center;
+    justify-content: center;
+    gap: 35px;
+  }
+}
